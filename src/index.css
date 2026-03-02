@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --color-miam-green: #1B4332;
+  --color-miam-mint: #D8F3DC;
+  --color-miam-earth: #D4A373;
+  --color-miam-gold: #E9C46A;
+  --color-miam-bg-standard: #F9FAFB;
+  --color-miam-bg-malewa: #FCF9F2;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #111827;
+  -webkit-font-smoothing: antialiased;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Cutout image effect */
+.cutout-img {
+  filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.2));
+}
